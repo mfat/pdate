@@ -2,13 +2,13 @@ pDate
 =====
 [![Build Status](https://travis-ci.org/beygi/pdate.svg?branch=master)](https://travis-ci.org/beygi/pdate)
 
-**pDate** is a persian (jalali,shamsi,hijri) date class that trying to be fully compatible with original `Date` class for using in browser or in the server with nodejs
+**pDate** is a Persian (Jalali,shamsi,hijri) date class that tries to be fully compatible with original `Date` class for using in a browser or on a server with nodejs.
 
 Installation
 -----
 **regular :**
 
-just download pdate.min.js
+Just download pdate.min.js
 
 **using bower :**
 ~~~bash
@@ -21,7 +21,7 @@ Usage in client
 ~~~html
 <script src="pdate.min.js"></script>
 ~~~
-**change browers default date to persian date :**
+**change the brower's default date to Persian date :**
 ~~~js
 window.Date = pDate;
 p = new Date("1394/02/20 13:15:06");
